@@ -1,0 +1,167 @@
+/*
+Primary - hsl(199,33%,67%) blue
+p1 hsl(199,33%,42%)
+p2 hsl(199,33%,67%)
+p3 hsl(199,33%,92%)
+
+
+Secondary - hsl(4,9%,35%) dark brown
+s1 hsl(4,9%,15%)
+s2 hsl(4,9%,30%)
+s3 hsl(4,9%,60%)
+
+Greys
+hsl(0,0%,10%)
+hsl(0,0%,30%)
+hsl(0,0%,50%)
+hsl(0,0%,70%)
+hsl(0,0%,90%)
+ */
+
+*{
+    box-sizing: border-box;
+}
+
+html {
+    /*background-color: hsl(199,33%,42%);*/
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+/*     height: 100%;
+    min-height: 100%; */
+}
+body {
+    /* box-shadow: 0px 0px 8px hsl(0,0%,30%); */
+    /* overflow-x: hidden; */
+    /*font-size: 1rem;*/
+/*     height: 100%;
+    min-height: 100%; */
+    /* margin-bottom: 0vh; */
+    color: hsl(0, 0%, 95%);
+}
+
+.v-header {
+    /* height: 100vh; */
+    align-items: center;
+    position: relative;
+}
+
+.fullscreen-video-wrap {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0vh;
+    left: 0;
+    max-width: 100%;
+    max-height: 100%;
+    z-index: -10;
+    overflow: hidden;
+}
+
+.fullscreen-video-wrap video {
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.overlay {
+    /* height: 100%; */
+    /* width: 100%; */
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0vh;
+    left: 0;
+    background: #2c2a2a;
+    z-index: -8;
+    opacity: 0.75;
+}
+
+.content {
+    position: static;
+    z-index:0;
+    padding-bottom: 15vh;
+}
+
+#header {
+    line-height: 1.0;
+    padding-top: 40px;
+}
+
+#header>p {
+    line-height: 1.4;
+    margin: 1.3vh 0 5vh 0;
+}
+
+/* h1, #header>p {
+    color: hsl(4,25%,35%);
+} */
+
+h1 {
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h3 {
+    text-align: center;
+    /* color: hsl(4,9%,25%); */
+}
+
+.footer {
+    transition: bottom 2s ease-in-out;
+    z-index: 0;
+    font-family: source sans pro, sans-serif;
+    opacity: .75;
+    cursor: pointer;
+    background: rgb(22, 22, 22);
+}
+
+.footer,
+.footer > p {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    /* margin-bottom: 0; */
+    padding: 3px;
+    text-align: center;
+    font-size: .8rem;
+}
+
+.screen-only {
+    text-align: center;
+/*     color: hsl(4,9%,25%); */
+}
+a:link {
+/*     color: hsl(4,9%,10%); */
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline overline;
+}
+/*hide rows*/
+.w3-third > h8 {
+    visibility: hidden;
+}
+
+ul,p {
+/*     color: hsl(0,0%,15%); */
+}
+
+li {
+    text-align: center;
+}
+
+@media (max-width: 500px) {
+    .quote {
+        padding-top: 0px;
+    }
+}
+
+@media print {
+    .screen-only {
+        display: none;
+        text-decoration: none;
+    }
+}
+
+.github-icon {
+    padding-left: 5px;
+}

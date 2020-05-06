@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Michael Jordan</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="customfont/stylesheet.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-light-blue.css">
+    <script src="https://kit.fontawesome.com/5c5f192669.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="v-header w3-margin-left w3-margin-right">
+        <!-- Video overlay wrapper -->
+        <div class="fullscreen-video-wrap">
+            <video loop autoplay muted>
+                <source src="mj.mp4">
+                Your browser does not support the video tag.
+            </video>
+            <!-- <iframe width="640" height="480" src="https://ytcropper.com/embed/ne5eb31730e45cb/loop/noautoplay/"
+                frameborder="0" allowfullscreen></iframe><a href="/" target="_blank">via ytCropper</a> -->
+        </div>
+        <div class="overlay"></div>
+        <div class="content">
+            <!-- Header -->
+            <div id="header" class="w3-container w3-center w3-text-shadow">
+                <h1 class="w3-xxxlarge">Michael Jordan</h1>
+                <p class="w3-xlarge"></p>
+            </div>
+            <!-- Image -->
+            <div class="w3-container w3-mobile w3-center w3-margin-top">
+                <img src="https://www.nba.com/images/cms/2020-03/michael-jordan-iso-archive-blazers.jpg?cw=1920&w=2051&x=96&ch=1080&h=1367&y=251"
+                    class="w3-border w3-white w3-padding w3-image w3-card-4" alt="MJ"
+                    style="width:500px;height:300px;">
+                <p id="img-caption" class="w3-small">Michael Jordan</p>
+            </div>
+            <!-- Content -->
+            <!-- 3 rows to center, outside rows hidden -->
+            <div class="w3-row">
+                <div class="empty w3-third ">
+                    <h8>empty</h8>
+                </div>
+                <div class="w3-third">
+                    <h3 class="headline w3-margin-bottom w3-text-shadow">Notable Achievements:</h3>
+                    <ul class="w3-ul">
+                        <li>Hall of Fame</li>
+                        <li>14x All Star</li>
+                        <li>10x Scoring Champ</li>
+                        <li>6x NBA Champion</li>
+                        <li>6x Finals MVP</li>
+                        <li>5x MVP</li>
+                    </ul>
+                </div>
+                <div class="empty w3-third">
+                    <h8>empty</h8>
+                </div>
+            </div>
+            <!-- Quote -->
+            <div class="quote w3-panel w3-center">
+                <p><i>
+                        "Some people want it to happen, some wish it would happen, others make it happen."
+                    </i></p>
+                <p>-- MJ</p>
+            </div>
+            <h4 class="screen-only">
+                If you have time, you should read more about MJ on this
+                <a id="tribute-link" target="_blank" href="https://www.nba.com/history/legends/profiles/michael-jordan">
+                    NBA.com entry.
+                </a>
+            </h4>
+        </div>
+
+    </div>
+    <!-- Footer -->
+    <section id="footer" class="footer">
+        <p>Created by Brenton Jackson<i class="fab fa-github github-icon fa-lg"></i></p>
+    </section>
+    <!-- Javascript -->
+    <script src="index.js"></script>
+</body>
+
+</html>
