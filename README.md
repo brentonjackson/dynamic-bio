@@ -1,4 +1,4 @@
-# Geralt of Rivia Tribute Page
+# Dynamic Bio Page
 
 Dynamic bio page
 
