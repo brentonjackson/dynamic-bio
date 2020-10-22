@@ -2,7 +2,7 @@
 
 Dynamic bio page
 
-https://brentonjackson.github.io/dynamic-bio/
+[Link](https://brentonjackson.github.io/dynamic-bio/)
 
 
 ## Built With
