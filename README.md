@@ -2,7 +2,7 @@
 
 Dynamic bio page
 
-[Link](https://brentonjackson.github.io/dynamic-bio/)
+[Link](https://focused-mirzakhani-648ad8.netlify.app/)
 
 
 ## Built With
